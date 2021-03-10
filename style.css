@@ -39,3 +39,11 @@ h1 {
   margin-left: 40px;
   margin-right: 40px; 
 }
+
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
