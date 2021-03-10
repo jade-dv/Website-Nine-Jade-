@@ -2,15 +2,3 @@ h1 {
   background-color: #add8e6
 }
 
-.dropbtn {
-  background-color:#d0e6ff;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-dropdown {
-  position: relative;
-  display: inline-block;
-}
