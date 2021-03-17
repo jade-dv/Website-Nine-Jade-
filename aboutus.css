@@ -16,6 +16,9 @@ li {
   float: left;
 }
 
+li {
+  border-right: 1px solid white;
+}
 li a {
   display: block;
   color: white;
