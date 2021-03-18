@@ -17,13 +17,18 @@
 <br>
 
 <form>
+  <form action="/action_page.php" novalidate>
+  <fieldset>
+    
   <label for="naam">Naam:</label><br>
-  <input type="text" id="naam" name="naam"><br>
+  <input type="text" id="naam" name="naam" required><br>
   <label for="Email">E-mail:</label><br>
-  <input type="text" id="Email" name="Email"> </br>
+  <input type="text" id="Email" name="Email" required> </br>
   <label for="telefoon">Telefoon:</label><br>
-  <input type="text" id="telefoon" name="telefoon"></br>
- 
+  <input type="tel" id="telefoon" name="telefoon" placeholder="123-45-678"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3} "></br>
+
+  
   <label for="browser">Land:</label>
   <br>
 <input list="browsers" name="browser" id="browser"></br>
@@ -35,6 +40,8 @@
   <option value="Frankrijk">
   <option value="Belgie">
 </datalist>
+<input type="submit" value="Submit">
+</fieldset>
 
 </form>
 </br>
