@@ -80,21 +80,10 @@ table{
   float: left;
  
  
-p {
- font-size: 1em;
- padding: 15px;
- margin-top: 40px;
- margin-left: 40px;
- margin-right: 40px;
-}
+
+
  
-li {
- border-right: 1px solid white;
-}
- 
-li:last-child {
- border-right: none;
-}
+
 table {
   border: 1px solid #add8e6;
   border-collapse: collapse;
@@ -104,7 +93,7 @@ table, th, td {
   border: 1px solid black;
 }
 
-p {
+main {
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
   background-color:white;
