@@ -1,10 +1,10 @@
-ul {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ul {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,11 +12,15 @@ ul {
   background-color: #add8e6;
 }
 
-li {
+li.nav {
   float: left;
 }
 
-li {
+li.nav {
+  border-right: 1px solid white;
+}
+
+li a.nav{
   display: block;
   color: white;
   text-align: center;
@@ -24,7 +28,7 @@ li {
   text-decoration: none;
 }
 
-ul {
+ul.nav {
   position: fixed;
   top: 0;
   width: 100%;
