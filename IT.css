@@ -1,10 +1,10 @@
-ul {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ul {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,11 +12,15 @@ ul {
   background-color: #add8e6;
 }
 
-li {
+li.nav {
   float: left;
 }
 
-li a {
+li.nav {
+  border-right: 1px solid white;
+}
+
+li a.nav{
   display: block;
   color: white;
   text-align: center;
@@ -24,43 +28,18 @@ li a {
   text-decoration: none;
 }
 
-ul {
+ul.nav {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-p {
-  font-size: 1em;
-  padding: 15px; 
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px; 
-}
 
 li {
   border-right: 1px solid white;
 }
 
-li:last-child {
-  border-right: none;
-}
 
-li a:hover, .dropdown:hover .dropbtn {
-background-color: lightgrey;
-}
-
-li.dropdown {
-display: inline-block;
-}
-
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #add8e6;
-  min-width: 160px;
-
-}
 
 body:before {
 content: "";
@@ -150,7 +129,7 @@ table, th, td {
   border: 1px solid black;
 }
 
-body {
+p {
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
   background-color:white;
