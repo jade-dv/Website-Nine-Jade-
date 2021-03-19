@@ -72,38 +72,13 @@ caption{
  padding: 14px 16px;
  text-decoration: none;}
 table{
-  padding-left: 20px
+  padding-left: 20px;
+  list-style-type: none;
+  margin: 0;
+  overflow:hidden;
+  background-color: white;
+  float: left;
  
- list-style-type: none;
- margin: 0;
- 
- 
- 
- 
- list-style-type: none;
- margin: 0;
-
- overflow:hidden;
- background-color: white;
- 
- 
- 
- float: left;
- 
- 
-li a {
- display: block;
- color: white;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
-}
- 
-ul {
- position: fixed;
- top: 0;
- width: 100%;
-}
  
 p {
  font-size: 1em;
