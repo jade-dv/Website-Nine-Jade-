@@ -44,3 +44,13 @@ background-size: cover;
 }
 
 
+article {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  padding: 15px;
+  
+}
