@@ -94,3 +94,8 @@ background-image: url('https://dezorgacademy.nl/wp-content/uploads/2019/02/recht
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+
+@media { (min-width: 500px) { .home}
+@media { (min-width: 500px) { .nav}
+@media { (min-width: 500px) { .home p }
